@@ -1,5 +1,6 @@
-const express = require("express");
-const Redis = require("ioredis");
+import express from "express";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+import Redis from "ioredis";
 
 const app = express();
 const redis = new Redis();
